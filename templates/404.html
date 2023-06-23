@@ -3,7 +3,9 @@
 <head>
     <title>404 Error</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="icon" type="image/x-icon" href="./static/images/fevicon.ico">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+        <link rel="icon" type="image/x-icon" href="../static/images/Fevicon.ico">
+
     <style>
         body {
             margin: 0;
@@ -40,18 +42,18 @@
                         <a class="nav-link" href="shop.html">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="quality.html">Quality</a>
+                        <a class="nav-link" href="tutorials.html">Tutorials</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link" href="login.html">login</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    
+
     <img src="./static/images/404.png" alt="404 Error" class="error-image">
-    
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
